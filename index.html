@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to my website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to my website</h1>
+    </header>
+    <nav role="navigation">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article id="about">
+            <h2>About me</h2>
+            <img src="profile.jpg" alt="Profile photo of the website owner">
+            <p>I am a Microsoft front end developer and these are my skills.</p>
+        </article>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>HTML &amp; CSS</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>Git &amp; Version Control</li>
+                <li>RESTful APIs</li>
+                <li>Problem Solving</li>
+                <li>Team Collaboration</li>
+                <li>Agile Methodologies</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="contact-name">Name:</label><br>
+                    <input type="text" id="contact-name" name="contact-name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="contact-email">Email:</label><br>
+                    <input type="email" id="contact-email" name="contact-email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="contact-message">Message:</label><br>
+                    <textarea id="contact-message" name="contact-message" rows="4" required></textarea>
+                </div>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Console App New. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
